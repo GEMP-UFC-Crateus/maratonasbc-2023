@@ -1,0 +1,6 @@
+quantidade,altura=input().split()
+contador=0
+for x in input().split():
+    if int(x)<=int(altura):
+        contador=contador+1
+print(contador)   
